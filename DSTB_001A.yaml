@@ -1,0 +1,40 @@
+proxies:
+- name: danu01_AkrabCtn01a
+  type: trojan
+  server: 104.20.75.141
+  port: 443
+  password: d1030ea7-170a-46a2-8e50-6c571023ea69
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
+- name: danu01_AkrabCtn01b
+  type: trojan
+  server: cdn.noice.id
+  port: 443
+  password: d1030ea7-170a-46a2-8e50-6c571023ea69
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
+- name: danu01_AkrabCtn01c
+  type: trojan
+  server: 104.17.70.206
+  port: 443
+  password: d1030ea7-170a-46a2-8e50-6c571023ea69
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
