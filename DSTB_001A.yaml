@@ -12,7 +12,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: do.sshpremium.my.id
-    interface-name: eth1
 - name: danu25_LiveDoBUa
   type: trojan
   server: 104.21.8.121
@@ -26,4 +25,3 @@ proxies:
     path: "/trojanws"
     headers:
       Host: do.sshpremium.my.id
-    interface-name: eth1
