@@ -12,7 +12,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu21_AkrabMlbi01a2
   type: trojan
   server: 104.18.3.198
@@ -26,7 +25,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu21_AkrabMlbi01a3
   type: trojan
   server: 104.18.0.196
@@ -40,7 +38,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu21_AkrabMlbi01a4
   type: trojan
   server: 104.18.1.196
@@ -54,7 +51,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu21_AkrabMlbi01a5
   type: trojan
   server: 104.17.3.81
@@ -68,7 +64,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu21_AkrabMlbi01a6
   type: trojan
   server: 104.17.2.81
@@ -82,7 +77,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu21_AkrabMlbi01a7
   type: trojan
   server: 104.20.74.141
@@ -96,7 +90,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu21_AkrabMlbi01a8
   type: trojan
   server: 104.20.75.141
@@ -110,7 +103,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu21_AkrabMlbi01a9
   type: trojan
   server: 104.67.73.39
@@ -124,7 +116,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu21_AkrabMlbi01a10
   type: trojan
   server: 104.26.4.10
@@ -138,7 +129,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu21_AkrabMlbi01a11
   type: trojan
   server: 104.26.5.10
@@ -152,7 +142,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu21_AkrabMlbi01a
   type: trojan
   server: 104.18.1.196
@@ -166,7 +155,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu21_AkrabMlbi01b
   type: trojan
   server: cdn.noice.id
@@ -180,7 +168,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu21_AkrabMlbi01c
   type: trojan
   server: 104.20.75.141
@@ -194,7 +181,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu23_AkrabMlbi01a
   type: trojan
   server: 104.18.1.196
@@ -208,7 +194,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu23_AkrabMlbi01b
   type: trojan
   server: cdn.noice.id
@@ -222,7 +207,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu23_AkrabMlbi01c
   type: trojan
   server: 104.20.75.141
@@ -236,7 +220,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu25_AkrabMlbi01a
   type: trojan
   server: 104.18.1.196
@@ -250,7 +233,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu25_AkrabMlbi01b
   type: trojan
   server: cdn.noice.id
@@ -264,7 +246,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
 - name: Danu25_AkrabMlbi01c
   type: trojan
   server: 104.20.75.141
@@ -278,4 +259,3 @@ proxies:
     path: "/trojanws"
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth1
