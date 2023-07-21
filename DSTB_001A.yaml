@@ -1,5 +1,5 @@
 proxies:
-- name: Danu21_AkrabMlbi01a1a
+- name: Danu21_AkrabMlbi01a1
   type: trojan
   server: 104.18.2.198
   port: 443
