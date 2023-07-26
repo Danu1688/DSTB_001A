@@ -1,7 +1,7 @@
 proxies:
 - name: Danu30_AkrabNusa1
   type: trojan
-  server: 104.18.2.198
+  server: 104.18.1.196
   port: 443
   password: ddd9da3d-b28f-4243-b395-f44fca350209
   udp: true
@@ -14,7 +14,7 @@ proxies:
       Host: nusa1.myserver-prem.cloud
 - name: Danu30_AkrabNusa2
   type: trojan
-  server: 104.18.3.198
+  server: 104.18.2.198
   port: 443
   password: ddd9da3d-b28f-4243-b395-f44fca350209
   udp: true
@@ -27,7 +27,7 @@ proxies:
       Host: nusa1.myserver-prem.cloud
 - name: Danu30_AkrabNusa3
   type: trojan
-  server: 104.18.0.196
+  server: 104.18.3.198
   port: 443
   password: ddd9da3d-b28f-4243-b395-f44fca350209
   udp: true
@@ -40,7 +40,7 @@ proxies:
       Host: nusa1.myserver-prem.cloud
 - name: Danu30_AkrabNusa4
   type: trojan
-  server: 104.18.1.196
+  server: 104.17.3.81
   port: 443
   password: ddd9da3d-b28f-4243-b395-f44fca350209
   udp: true
@@ -53,7 +53,7 @@ proxies:
       Host: nusa1.myserver-prem.cloud
 - name: Danu30_AkrabNusa5
   type: trojan
-  server: 104.17.3.81
+  server: 104.18.0.196
   port: 443
   password: ddd9da3d-b28f-4243-b395-f44fca350209
   udp: true
