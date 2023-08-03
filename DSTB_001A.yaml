@@ -8,7 +8,7 @@ proxies:
   cipher: auto
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
   servername: infinys.sshpremium.my.id
   network: ws
   ws-opts:
