@@ -1,5 +1,5 @@
 proxies:
-- name: DanuTelkom01_Akrab01_11
+- name: DanuTelkom01_Akrab01_1
   type: trojan
   server: 104.18.1.196
   port: 443
