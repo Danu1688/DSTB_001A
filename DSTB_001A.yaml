@@ -13,7 +13,7 @@ proxies:
     headers:
       Host: sg2-wijaya.platinum.myserver-prem.cloud
   interface-name: eth1
-  - name: DanuIKD01_Akrab01_1
+- name: DanuIKD01_Akrab01_1
   type: trojan
   server: 104.18.1.196
   port: 443
