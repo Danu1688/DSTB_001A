@@ -1,4 +1,95 @@
 proxies:
+- name: DanuMelbi01_Akrab01_1
+  type: trojan
+  server: 104.18.1.196
+  port: 443
+  password: ca08c6d4-9fa5-48d1-83d8-41ff78b39e6f
+  udp: true
+  sni: melbi3.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: melbi3.myserver-prem.cloud
+- name: DanuMelbi01_Akrab01_2
+  type: trojan
+  server: 104.18.2.198
+  port: 443
+  password: ca08c6d4-9fa5-48d1-83d8-41ff78b39e6f
+  udp: true
+  sni: melbi3.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: melbi3.myserver-prem.cloud
+- name: DanuMelbi01_Akrab01_3
+  type: trojan
+  server: 104.18.3.198
+  port: 443
+  password: ca08c6d4-9fa5-48d1-83d8-41ff78b39e6f
+  udp: true
+  sni: melbi3.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: melbi3.myserver-prem.cloud
+- name: DanuMelbi01_Akrab01_4
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: ca08c6d4-9fa5-48d1-83d8-41ff78b39e6f
+  udp: true
+  sni: melbi3.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: melbi3.myserver-prem.cloud
+- name: DanuMelbi01_Akrab01_5
+  type: trojan
+  server: 104.18.0.196
+  port: 443
+  password: ca08c6d4-9fa5-48d1-83d8-41ff78b39e6f
+  udp: true
+  sni: melbi3.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: melbi3.myserver-prem.cloud
+- name: DanuMelbi01_Akrab01_6
+  type: trojan
+  server: cdn.noice.id
+  port: 443
+  password: ca08c6d4-9fa5-48d1-83d8-41ff78b39e6f
+  udp: true
+  sni: melbi3.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: melbi3.myserver-prem.cloud
+- name: DanuMelbi01_Akrab01_7
+  type: trojan
+  server: 104.20.75.141
+  port: 443
+  password: ca08c6d4-9fa5-48d1-83d8-41ff78b39e6f
+  udp: true
+  sni: melbi3.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: melbi3.myserver-prem.cloud
 - name: DanuIKD01_Akrab01_1
   type: trojan
   server: 104.18.1.196
@@ -197,96 +288,4 @@ proxies:
     path: /vmessws
     headers:
       Host: infinys.sshpremium.my.id
-- name: DanuTelkom01_Akrab01_1
-  type: trojan
-  server: 104.18.1.196
-  port: 443
-  password: 3052add3-160a-437c-ad4d-c3a043e71258
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
-  interface-name: eth1
-- name: DanuTelkom01_Akrab01_2
-  type: trojan
-  server: 104.18.2.198
-  port: 443
-  password: 3052add3-160a-437c-ad4d-c3a043e71258
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
-- name: DanuTelkom01_Akrab01_3
-  type: trojan
-  server: 104.18.3.198
-  port: 443
-  password: 3052add3-160a-437c-ad4d-c3a043e71258
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
-- name: DanuTelkom01_Akrab01_4
-  type: trojan
-  server: 104.17.3.81
-  port: 443
-  password: 3052add3-160a-437c-ad4d-c3a043e71258
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
-- name: DanuTelkom01_Akrab01_5
-  type: trojan
-  server: 104.18.0.196
-  port: 443
-  password: 3052add3-160a-437c-ad4d-c3a043e71258
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
-- name: DanuTelkom01_Akrab01_6
-  type: trojan
-  server: cdn.noice.id
-  port: 443
-  password: 3052add3-160a-437c-ad4d-c3a043e71258
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
-- name: DanuTelkom01_Akrab01_7
-  type: trojan
-  server: 104.20.75.141
-  port: 443
-  password: 3052add3-160a-437c-ad4d-c3a043e71258
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
 
