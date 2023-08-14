@@ -12,7 +12,6 @@ proxies:
     path: /trojan
     headers:
       Host: ikd-stb1.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuIKD01_Akrab01_2
   type: trojan
   server: 104.18.2.198
@@ -26,7 +25,6 @@ proxies:
     path: /trojan
     headers:
       Host: ikd-stb1.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuIKD01_Akrab01_3
   type: trojan
   server: 104.18.3.198
@@ -40,7 +38,6 @@ proxies:
     path: /trojan
     headers:
       Host: ikd-stb1.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuIKD01_Akrab01_4
   type: trojan
   server: 104.17.3.81
@@ -54,7 +51,6 @@ proxies:
     path: /trojan
     headers:
       Host: ikd-stb1.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuIKD01_Akrab01_5
   type: trojan
   server: 104.18.0.196
@@ -68,7 +64,6 @@ proxies:
     path: /trojan
     headers:
       Host: ikd-stb1.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuIKD01_Akrab01_6
   type: trojan
   server: cdn.noice.id
@@ -82,7 +77,6 @@ proxies:
     path: /trojan
     headers:
       Host: ikd-stb1.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuIKD01_Akrab01_7
   type: trojan
   server: 104.20.75.141
@@ -96,7 +90,6 @@ proxies:
     path: /trojan
     headers:
       Host: ikd-stb1.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuBackup_AkrabDO1
   type: trojan
   server: 104.18.1.196
@@ -110,7 +103,6 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuBackup_AkrabDO2
   type: trojan
   server: 104.18.2.198
@@ -124,7 +116,6 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuBackup_AkrabDO3
   type: trojan
   server: 104.18.3.198
@@ -138,7 +129,6 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuBackup_AkrabDO4
   type: trojan
   server: 104.17.3.81
@@ -152,7 +142,6 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuBackup_AkrabDO5
   type: trojan
   server: 104.18.0.196
@@ -166,7 +155,6 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuBackup_AkrabDO6
   type: trojan
   server: cdn.noice.id
@@ -180,7 +168,6 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuBackup_AkrabDO7
   type: trojan
   server: 104.20.75.141
@@ -194,7 +181,6 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-  interface-name: eth1
 - name: danuVmess-Akrab01_1
   type: vmess
   server: 104.18.1.196
@@ -211,7 +197,6 @@ proxies:
     path: /vmessws
     headers:
       Host: infinys.sshpremium.my.id
-  interface-name: eth1
 - name: DanuTelkom01_Akrab01_1
   type: trojan
   server: 104.18.1.196
@@ -239,7 +224,6 @@ proxies:
     path: /trojan
     headers:
       Host: telkom1.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuTelkom01_Akrab01_3
   type: trojan
   server: 104.18.3.198
@@ -253,7 +237,6 @@ proxies:
     path: /trojan
     headers:
       Host: telkom1.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuTelkom01_Akrab01_4
   type: trojan
   server: 104.17.3.81
@@ -267,7 +250,6 @@ proxies:
     path: /trojan
     headers:
       Host: telkom1.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuTelkom01_Akrab01_5
   type: trojan
   server: 104.18.0.196
@@ -281,7 +263,6 @@ proxies:
     path: /trojan
     headers:
       Host: telkom1.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuTelkom01_Akrab01_6
   type: trojan
   server: cdn.noice.id
@@ -295,7 +276,6 @@ proxies:
     path: /trojan
     headers:
       Host: telkom1.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuTelkom01_Akrab01_7
   type: trojan
   server: 104.20.75.141
@@ -309,5 +289,4 @@ proxies:
     path: /trojan
     headers:
       Host: telkom1.myserver-prem.cloud
-  interface-name: eth1
 
