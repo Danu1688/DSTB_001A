@@ -324,4 +324,21 @@ proxies:
     headers:
       Host: x1cj69.scwill.my.id
   interface-name: eth1
+- name: VmessTest1-Akrab
+  type: vmess
+  server: 104.20.75.141
+  port: 443
+  uuid: d8355657-c15b-45ca-949d-dee843efcf6c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sgdo1.dstb.cloud
+  network: ws
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: sgdo1.dstb.cloud
+  interface-name: eth1
 
