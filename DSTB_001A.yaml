@@ -312,7 +312,7 @@ proxies:
   interface-name: eth1
 - name: TrojanTest1-Akrab
   type: trojan
-  server: 104.21.8.121
+  server: 104.20.75.141
   port: 443
   password: e7d237e8-0571-4b9c-a8d1-7c20a97886d0
   udp: true
@@ -320,7 +320,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojanws
+    path: /trojan
     headers:
       Host: x1cj69.scwill.my.id
   interface-name: eth1
