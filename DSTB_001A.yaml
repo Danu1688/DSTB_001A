@@ -318,9 +318,9 @@ proxies:
   udp: true
   sni: x1cj69.scwill.my.id
   skip-cert-verify: true
-  network: ws
+  network: Websocket
   ws-opts:
-    path: /trojan
+    path: /trojanws
     headers:
       Host: x1cj69.scwill.my.id
   interface-name: eth1
