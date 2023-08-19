@@ -347,12 +347,12 @@ proxies:
   port: 443
   password: c39f70c1-55c0-40cd-aa3e-b07b50367fa8
   udp: true
-  sni: dns.0sqo9zf.rstore-vpn.cloud
+  sni: 128.199.171.130
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: dns.0sqo9zf.rstore-vpn.cloud
+      Host: 128.199.171.130
   interface-name: eth1
 
