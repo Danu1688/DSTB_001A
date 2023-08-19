@@ -341,18 +341,18 @@ proxies:
     headers:
       Host: sgdo1.dstb.cloud
   interface-name: eth1
-- name: TrojanTestSgDo2-Akrab1
+- name: TrojanTestSgDo2-Akrab
   type: trojan
   server: 104.20.75.141
   port: 443
-  password: e5f685e8-a342-44f7-945b-e43cbec24f03
+  password: e6854375-9705-41fb-9b2a-b4ca690175dc
   udp: true
-  sni: sgdo2.dstb.cloud
+  sni: danu529.foryou-ssh.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: sgdo2.dstb.cloud
+      Host: danu529.foryou-ssh.my.id
   interface-name: eth1
 
