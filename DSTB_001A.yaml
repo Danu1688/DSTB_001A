@@ -347,12 +347,12 @@ proxies:
   port: 443
   password: c39f70c1-55c0-40cd-aa3e-b07b50367fa8
   udp: true
-  sni: sgdo1.dstb.cloud
+  sni: dns.0sqo9zf.rstore-vpn.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: sgdo1.dstb.cloud
+      Host: dns.0sqo9zf.rstore-vpn.cloud
   interface-name: eth1
 
