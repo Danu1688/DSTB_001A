@@ -352,4 +352,21 @@ proxies:
     headers:
       Host: sgdo3.dstb.cloud
   interface-name: eth1
+- name: Danang6Vmess-Akrab_7
+  type: vmess
+  server: 104.20.75.141
+  port: 443
+  uuid: be2390a9-4be2-49ff-9072-d12c621a8b02
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sgdo3.dstb.cloud
+  network: ws
+  ws-opts:
+    path: /vmess-ws
+    headers:
+      Host: sgdo3.dstb.cloud
+  interface-name: eth1
 
