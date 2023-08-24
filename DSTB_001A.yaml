@@ -324,4 +324,18 @@ proxies:
     headers:
       Host: danu529.foryou-ssh.my.id
   interface-name: eth1
+- name: TrojanGoTest-Akrab_7
+  server: 104.20.75.141
+  port: 8443
+  type: trojan
+  password: TrojanGoTest
+  network: ws
+  sni: sgdo3.dstb.cloud
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-go
+    headers:
+        Host: sgdo3.dstb.cloud
+  interface-name: eth1
 
