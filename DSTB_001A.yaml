@@ -310,37 +310,6 @@ proxies:
     headers:
       Host: infinys.sshpremium.my.id
   interface-name: eth1
-- name: TrojanTest1-Akrab1
-  type: trojan
-  server: 104.20.75.141
-  port: 443
-  password: e7d237e8-0571-4b9c-a8d1-7c20a97886d0
-  udp: true
-  sni: x1cj69.scwill.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojanws
-    headers:
-      Host: x1cj69.scwill.my.id
-  interface-name: eth1
-- name: VmessTest1-Akrab
-  type: vmess
-  server: 104.20.75.141
-  port: 443
-  uuid: d8355657-c15b-45ca-949d-dee843efcf6c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sgdo1.dstb.cloud
-  network: ws
-  ws-opts:
-    path: /vmessws
-    headers:
-      Host: sgdo1.dstb.cloud
-  interface-name: eth1
 - name: TrojanTestSgDo2-Akrab
   type: trojan
   server: 104.20.75.141
