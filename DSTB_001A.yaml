@@ -383,4 +383,18 @@ proxies:
     headers:
       Host: bizz.myserver-prem.xyz
   interface-name: eth1
+- name: DSTB1Test_AkrabDO_4
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: 6640d3d3-65a8-40a3-a749-ddb8768c200c
+  udp: true
+  sni: sgdo2.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xraytrojanws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
+  interface-name: eth1
 
