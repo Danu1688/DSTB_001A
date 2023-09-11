@@ -1,18 +1,4 @@
 proxies:
-- name: DanuMelbi01_Akrab01_1
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: ca08c6d4-9fa5-48d1-83d8-41ff78b39e6f
-  udp: true
-  sni: melbi3.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: melbi3.myserver-prem.cloud
-  interface-name: eth1
 - name: DanuBackup_AkrabDO1
   type: trojan
   server: quiz.int.vidio.com
