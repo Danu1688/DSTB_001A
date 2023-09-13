@@ -27,6 +27,20 @@ proxies:
     headers:
       Host: vpna4mvbhv.scpotato.me
   interface-name: eth1
+- name: DanuRmWeb_AkrabRmWeb_1
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: f249583f-004c-4ef0-a2b1-e16e2e286d57
+  udp: true
+  sni: vpnrdfs1ov.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpnrdfs1ov.scpotato.me
+  interface-name: eth1
 - name: DanuBackup_AkrabDO1
   type: trojan
   server: quiz.int.vidio.com
