@@ -97,37 +97,6 @@ proxies:
     headers:
       Host: sgdo3.dstb.cloud
   interface-name: eth1
-- name: TrojanWsBizz-Akrab_1
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: c9452baf-e66e-40d0-9793-4be728053fbb
-  udp: true
-  sni: bizz.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojanws
-    headers:
-      Host: bizz.myserver-prem.xyz
-  interface-name: eth1
-- name: VmessBizz-Akrab_1
-  type: vmess
-  server: quiz.int.vidio.com
-  port: 443
-  uuid: b0cbbbc4-4bb4-4bf6-97ea-9415cf035ce9
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: bizz.myserver-prem.xyz
-  network: ws
-  ws-opts:
-    path: /vmessws
-    headers:
-      Host: bizz.myserver-prem.xyz
-  interface-name: eth1
 - name: DSTB1Test_AkrabDO_1
   type: trojan
   server: quiz.int.vidio.com
