@@ -1,18 +1,4 @@
 proxies:
-- name: DanuBiznet_AkrabBiznet_1
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: 4c30305c-4da0-4ca7-96e3-88bd26a5c7b9
-  udp: true
-  sni: vpn46tnyyt.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpn46tnyyt.scpotato.me
-  interface-name: eth1
 - name: DanuNusa_AkrabNusa_1
   type: trojan
   server: quiz.int.vidio.com
@@ -40,6 +26,20 @@ proxies:
     path: /trojan
     headers:
       Host: vpnrdfs1ov.scpotato.me
+  interface-name: eth1
+- name: DanuBiznet_AkrabBiznet_1
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: 4c30305c-4da0-4ca7-96e3-88bd26a5c7b9
+  udp: true
+  sni: vpn46tnyyt.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpn46tnyyt.scpotato.me
   interface-name: eth1
 - name: DanuBackup_AkrabDO1
   type: trojan
