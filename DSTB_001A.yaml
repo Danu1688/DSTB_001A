@@ -1,127 +1,197 @@
 proxies:
-- name: DanuNusa_AkrabNusa_1
+- name: DanuDo2_Live_IP1
   type: trojan
-  server: quiz.int.vidio.com
+  server: 104.17.224.203
   port: 443
-  password: 55349efa-6b40-4225-9158-946a3e3e07eb
+  password: 4e9401d5-a95b-43f4-854e-406aae91e37d
   udp: true
-  sni: vpna4mvbhv.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpna4mvbhv.scpotato.me
-  interface-name: eth1
-- name: DanuRmWeb_AkrabRmWeb_1
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: f249583f-004c-4ef0-a2b1-e16e2e286d57
-  udp: true
-  sni: vpnrdfs1ov.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpnrdfs1ov.scpotato.me
-  interface-name: eth1
-- name: DanuBiznet_AkrabBiznet_1
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: 4c30305c-4da0-4ca7-96e3-88bd26a5c7b9
-  udp: true
-  sni: vpn46tnyyt.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpn46tnyyt.scpotato.me
-  interface-name: eth1
-- name: DstbBackupSvr01_LiveDO_1
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: ac6e2219-e937-4f78-b836-a92f1efc6a3b
-  udp: true
-  sni: danu529.foryou-ssh.my.id
+  sni: dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: danu529.foryou-ssh.my.id
-  interface-name: eth1
-- name: DanuBackup_AkrabDO1
+      Host: dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuDo2_Live_IP2
   type: trojan
-  server: quiz.int.vidio.com
+  server: 104.16.143.190
   port: 443
-  password: 39ca4c74-9abd-4c33-9e11-b779fea93c50
+  password: 4e9401d5-a95b-43f4-854e-406aae91e37d
   udp: true
-  sni: do-2device.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: do-2device.myserver-prem.cloud
-  interface-name: eth1
-- name: TrojanTestSgDo2-Akrab
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: e6854375-9705-41fb-9b2a-b4ca690175dc
-  udp: true
-  sni: danu529.foryou-ssh.my.id
+  sni: dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: danu529.foryou-ssh.my.id
-  interface-name: eth1
-- name: TrojanGoTest-Akrab_1
-  server: quiz.int.vidio.com
-  port: 8443
+      Host: dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuDo2_Live_IP3
   type: trojan
-  password: TrojanGoTest
-  network: ws
-  sni: sgdo3.dstb.cloud
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /trojan-go
-    headers:
-        Host: sgdo3.dstb.cloud
-  interface-name: eth1
-- name: TrojanWsSvr-Akrab_1
-  type: trojan
-  server: quiz.int.vidio.com
+  server: 172.67.75.37
   port: 443
-  password: 9766b64f-2d18-464b-8be5-02231f0e0c44
+  password: 4e9401d5-a95b-43f4-854e-406aae91e37d
   udp: true
-  sni: sgdo3.dstb.cloud
+  sni: dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: sgdo3.dstb.cloud
-  interface-name: eth1
-- name: DSTB1Test_AkrabDO_1
+      Host: dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuDo2_Live_IP4
   type: trojan
-  server: quiz.int.vidio.com
+  server: 104.26.15.208
   port: 443
-  password: 6640d3d3-65a8-40a3-a749-ddb8768c200c
+  password: 4e9401d5-a95b-43f4-854e-406aae91e37d
   udp: true
-  sni: sgdo2.myserver-prem.xyz
+  sni: dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /xraytrojanws
+    path: /trojan-ws
     headers:
-      Host: sgdo2.myserver-prem.xyz
-  interface-name: eth1
+      Host: dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuDo2_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: 4e9401d5-a95b-43f4-854e-406aae91e37d
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuDo2_Live_H1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: 4e9401d5-a95b-43f4-854e-406aae91e37d
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuDo2_Live_H2
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 4e9401d5-a95b-43f4-854e-406aae91e37d
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuNusa_Live_IP1
+  type: trojan
+  server: 104.17.224.203
+  port: 443
+  password: 110375ca-4411-4dda-b500-bdf28b70e56b
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuNusa_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: 110375ca-4411-4dda-b500-bdf28b70e56b
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuNusa_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: 110375ca-4411-4dda-b500-bdf28b70e56b
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuNusa_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: 110375ca-4411-4dda-b500-bdf28b70e56b
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuNusa_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: 110375ca-4411-4dda-b500-bdf28b70e56b
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuNusa_Live_H1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: 110375ca-4411-4dda-b500-bdf28b70e56b
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+  interface-name: br-lanmac0
+- name: DanuNusa_Live_H2
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 110375ca-4411-4dda-b500-bdf28b70e56b
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+  interface-name: br-lanmac0
