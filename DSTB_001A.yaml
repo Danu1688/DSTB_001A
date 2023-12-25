@@ -25,19 +25,6 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
-- name: DanuDo2_Live_IP4
-  type: trojan
-  server: 104.26.15.208
-  port: 443
-  password: 4e9401d5-a95b-43f4-854e-406aae91e37d
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
 - name: DanuDo2_Live_H1
   type: trojan
   server: circles.asia
@@ -90,20 +77,6 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-- name: DanuNusa_Live_IP4
-  type: trojan
-  server: 104.26.15.208
-  port: 443
-  password: 110375ca-4411-4dda-b500-bdf28b70e56b
-  udp: true
-  sni: nusa.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa.dstb.cloud
-  interface-name: br-lanmac0
 - name: DanuNusa_Live_H1
   type: trojan
   server: circles.asia
