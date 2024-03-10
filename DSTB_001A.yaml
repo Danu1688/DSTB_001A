@@ -25,6 +25,19 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
+- name: DanuNusa_Live_H3
+  type: trojan
+  server: circles.life
+  port: 443
+  password: 110375ca-4411-4dda-b500-bdf28b70e56b
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
 - name: SvrDSTB_DO_Live_H1
   type: trojan
   server: beacon.liveon.id
@@ -51,6 +64,19 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
+- name: SvrDSTB_DO_Live_H3
+  type: trojan
+  server: circles.life
+  port: 443
+  password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
 - name: SvrAtha_Live_H1
   type: trojan
   server: beacon.liveon.id
@@ -67,6 +93,19 @@ proxies:
 - name: SvrAtha_Live_H2
   type: trojan
   server: circles.asia
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha_Live_H3
+  type: trojan
+  server: circles.life
   port: 443
   password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
   udp: true
